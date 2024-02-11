@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.content h1{
+    color: #1d1e4c;
+    font-weight: bold;
+    font-size: 65px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.content h4{
+    color: #1d1e4c;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: end;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.image_container,img{
+    height: 300px;
+    border-radius: 45%;
+}
+
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main_content{
+    font-size: 30px;
+    margin-top: 80px;
+    font-family: 'Poppins',sans-serif;
+}
+.main_content p{
+    font-size: 0.6em;
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+}
+
+.biography{
+    font-size: 30px;
+    margin-top: 80px;
+    font-family: 'Poppins',sans-serif;
+}
+.biography ul{
+    margin-top: 20px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.biography ul li{
+    font-size: 0.6em;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+footer{
+    margin:50px 0;
+    font-family: 'Poppins',sans-serif;
+    text-align: end;
+}
